@@ -48,6 +48,6 @@ pip install requests beautifulsoup4 slack_sdk
 3．スクリプトを実行
 python scraper.py
 
-
+4．Slack・メールあてに、ニューストップ5が送信されます
 
 
