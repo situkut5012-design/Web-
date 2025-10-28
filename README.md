@@ -24,3 +24,30 @@ Slackに通知するボットです。
 ---
 
 ## ファイル構成
+web_scraper_news/
+├─ scraper.py # メインスクリプト
+├─ config.json # 設定ファイル（Webhook URL, 取得サイトURL）
+└─ README.md # プロジェクト説明
+
+
+
+---
+
+## 実行手順
+1. `config.json` にSlack Webhook URLとターゲットURLを設定
+```json
+{
+    "slack_webhook_url": "https://hooks.slack.com/services/XXXXX/YYYYY/ZZZZZ",
+    "target_url": "https://news.yahoo.co.jp/"
+}
+
+
+2.ライブラリをインストール
+pip install requests beautifulsoup4 slack_sdk
+
+3．スクリプトを実行
+python scraper.py
+
+
+
+
