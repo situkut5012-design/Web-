@@ -1,0 +1,8 @@
+{
+    "smtp_server": "smtp.gmail.com",
+    "smtp_port": 587,
+    "sender_email": "自分のメールアドレス",
+    "sender_password": "アプリパスワード",
+    "receiver_email": "相手のメールアドレス",
+    "target_url": "https://news.yahoo.co.jp/"
+}
